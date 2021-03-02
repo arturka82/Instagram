@@ -12,6 +12,7 @@
 		912D46D025EE6C5F008E19E2 /* LikesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 912D46CE25EE6C5F008E19E2 /* LikesTableViewCell.xib */; };
 		912D46D525EE6C86008E19E2 /* FollowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912D46D325EE6C86008E19E2 /* FollowTableViewCell.swift */; };
 		912D46D625EE6C86008E19E2 /* FollowTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 912D46D425EE6C86008E19E2 /* FollowTableViewCell.xib */; };
+		912D46DA25EE763B008E19E2 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912D46D925EE763B008E19E2 /* Model.swift */; };
 		913A107925ED642F00A0E748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 913A107825ED642E00A0E748 /* Assets.xcassets */; };
 		913A108125ED692100A0E748 /* StoriTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913A107F25ED692100A0E748 /* StoriTableViewCell.swift */; };
 		913A108225ED692100A0E748 /* StoriTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 913A108025ED692100A0E748 /* StoriTableViewCell.xib */; };
@@ -32,6 +33,7 @@
 		912D46CE25EE6C5F008E19E2 /* LikesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LikesTableViewCell.xib; path = "Instagram/Xib files/LikesTableViewCell.xib"; sourceTree = SOURCE_ROOT; };
 		912D46D325EE6C86008E19E2 /* FollowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FollowTableViewCell.swift; path = "Instagram/Xib files/FollowTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
 		912D46D425EE6C86008E19E2 /* FollowTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FollowTableViewCell.xib; path = "Instagram/Xib files/FollowTableViewCell.xib"; sourceTree = SOURCE_ROOT; };
+		912D46D925EE763B008E19E2 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Model.swift; path = "Cells ViewControllers/Model.swift"; sourceTree = "<group>"; };
 		913A107825ED642E00A0E748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		913A107F25ED692100A0E748 /* StoriTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriTableViewCell.swift; sourceTree = "<group>"; };
 		913A108025ED692100A0E748 /* StoriTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoriTableViewCell.xib; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 		91C820CB25ED13B200007FB1 /* Instagram */ = {
 			isa = PBXGroup;
 			children = (
+				912D46D925EE763B008E19E2 /* Model.swift */,
 				91C820CC25ED13B200007FB1 /* AppDelegate.swift */,
 				91C820CE25ED13B200007FB1 /* SceneDelegate.swift */,
 				912D46C625EE6BD2008E19E2 /* ViewControllers */,
@@ -212,6 +215,7 @@
 				913A108125ED692100A0E748 /* StoriTableViewCell.swift in Sources */,
 				91C820CD25ED13B200007FB1 /* AppDelegate.swift in Sources */,
 				912D46D525EE6C86008E19E2 /* FollowTableViewCell.swift in Sources */,
+				912D46DA25EE763B008E19E2 /* Model.swift in Sources */,
 				91C820CF25ED13B200007FB1 /* SceneDelegate.swift in Sources */,
 				912D46C425EE6BB5008E19E2 /* InteractionTableViewController.swift in Sources */,
 				912D46CF25EE6C5F008E19E2 /* LikesTableViewCell.swift in Sources */,

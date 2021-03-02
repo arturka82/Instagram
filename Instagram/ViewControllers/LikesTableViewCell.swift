@@ -16,7 +16,7 @@ class LikesTableViewCell: UITableViewCell {
 
 
     
-    static let id = "RecomendTableViewCell"
+    static let id = "LikesTableViewCell"
     
    
 
@@ -28,12 +28,12 @@ class LikesTableViewCell: UITableViewCell {
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
-        // Configure the view for the selected state
     }
     
-    func congigure(model: InstaRecomend) {
+    func congigure(model: InstaLike) {
         userImageView.image = UIImage(named: model.userImageView)
-        textActionLabel.text = model.userName
+        textActionLabel.text = model.text
+        curentbImageView.image = UIImage(named: model.curentImageView)
     }
     
     

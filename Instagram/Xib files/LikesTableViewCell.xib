@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,15 +12,15 @@
         <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="LikesTableViewCell" rowHeight="60" id="KGk-i7-Jjw" customClass="LikesTableViewCell" customModule="Instagram" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
                 <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GSM-b1-JBg">
-                        <rect key="frame" x="10" y="10" width="40" height="40"/>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GSM-b1-JBg">
+                        <rect key="frame" x="10" y="5" width="50" height="50"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="40" id="ZYh-Yk-83E"/>
-                            <constraint firstAttribute="width" constant="40" id="iyP-3W-suL"/>
+                            <constraint firstAttribute="width" constant="50" id="TdQ-8f-t1M"/>
+                            <constraint firstAttribute="height" constant="50" id="XtY-pZ-q1b"/>
                         </constraints>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -29,33 +29,42 @@
                         </userDefinedRuntimeAttributes>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="axper.ybbc упомянул вас в коментарии" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dly-FW-ocD">
-                        <rect key="frame" x="55" y="10" width="200" height="40"/>
-                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                        <rect key="frame" x="65" y="10" width="176" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="DTT-2Y-t29"/>
+                            <constraint firstAttribute="width" constant="176" id="LZf-DC-2d7"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jVm-Jf-lc9">
-                        <rect key="frame" x="270" y="10" width="40" height="40"/>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jVm-Jf-lc9">
+                        <rect key="frame" x="256" y="5" width="50" height="50"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="40" id="oTI-3L-f8M"/>
-                            <constraint firstAttribute="width" constant="40" id="zXN-zN-nGu"/>
+                            <constraint firstAttribute="height" constant="50" id="Kkz-WM-2St"/>
+                            <constraint firstAttribute="width" constant="50" id="bfz-8h-6z6"/>
                         </constraints>
                     </imageView>
                 </subviews>
                 <constraints>
-                    <constraint firstAttribute="bottom" secondItem="jVm-Jf-lc9" secondAttribute="bottom" constant="10" id="0Zx-Dr-Slc"/>
-                    <constraint firstItem="jVm-Jf-lc9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="ADR-FQ-3Yv"/>
-                    <constraint firstAttribute="trailing" secondItem="jVm-Jf-lc9" secondAttribute="trailing" constant="10" id="FdV-MD-0HG"/>
-                    <constraint firstItem="GSM-b1-JBg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="aUd-tz-W4K"/>
-                    <constraint firstAttribute="bottom" secondItem="GSM-b1-JBg" secondAttribute="bottom" constant="10" id="dYt-VN-UfI"/>
-                    <constraint firstItem="GSM-b1-JBg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="gTp-gr-73L"/>
-                    <constraint firstItem="Dly-FW-ocD" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="knz-lU-zfl"/>
-                    <constraint firstAttribute="bottom" secondItem="Dly-FW-ocD" secondAttribute="bottom" constant="10" id="sHY-3p-uGr"/>
-                    <constraint firstItem="Dly-FW-ocD" firstAttribute="leading" secondItem="GSM-b1-JBg" secondAttribute="trailing" constant="5" id="uhR-qI-JxC"/>
-                    <constraint firstItem="jVm-Jf-lc9" firstAttribute="leading" secondItem="Dly-FW-ocD" secondAttribute="trailing" constant="15" id="vHR-Zc-OaF"/>
+                    <constraint firstItem="jVm-Jf-lc9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="5l5-1l-yxk"/>
+                    <constraint firstAttribute="trailing" secondItem="jVm-Jf-lc9" secondAttribute="trailing" constant="10" id="8ES-l1-jYn"/>
+                    <constraint firstItem="Dly-FW-ocD" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Zs3-Fw-iRl"/>
+                    <constraint firstAttribute="bottom" secondItem="GSM-b1-JBg" secondAttribute="bottom" constant="5" id="aRD-Gg-hUv"/>
+                    <constraint firstItem="GSM-b1-JBg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="e8L-34-J5X"/>
+                    <constraint firstItem="Dly-FW-ocD" firstAttribute="leading" secondItem="GSM-b1-JBg" secondAttribute="trailing" constant="5" id="lAd-ac-Fcr"/>
+                    <constraint firstAttribute="bottom" secondItem="jVm-Jf-lc9" secondAttribute="bottom" constant="5" id="m3v-31-EA6"/>
+                    <constraint firstAttribute="bottom" secondItem="Dly-FW-ocD" secondAttribute="bottom" constant="10" id="nXT-xt-cbd"/>
+                    <constraint firstItem="GSM-b1-JBg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="qYH-uD-cRB"/>
+                    <constraint firstItem="jVm-Jf-lc9" firstAttribute="leading" secondItem="Dly-FW-ocD" secondAttribute="trailing" constant="15" id="rwb-U4-9d1"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="curentbImageView" destination="jVm-Jf-lc9" id="Eh7-pU-Csc"/>
+                <outlet property="textActionLabel" destination="Dly-FW-ocD" id="Tqa-21-xD6"/>
+                <outlet property="userImageView" destination="GSM-b1-JBg" id="yDb-0n-v0n"/>
+            </connections>
             <point key="canvasLocation" x="-147.82608695652175" y="79.6875"/>
         </tableViewCell>
     </objects>

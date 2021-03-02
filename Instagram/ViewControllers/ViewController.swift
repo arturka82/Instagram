@@ -89,7 +89,6 @@ extension ViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        
         if indexPath.row == 0 {
             let cell1 = tableView.dequeueReusableCell(withIdentifier: StoriTableViewCell.id, for: indexPath) as! StoriTableViewCell
             cell1.congigure(model: modelStory[indexPath.row])
@@ -98,7 +97,7 @@ extension ViewController: UITableViewDataSource {
             cell1.createImage()
             
             return cell1
-        }  else if indexPath.row == 2 {
+        } else if indexPath.row == 2 {
             let cell2 = tableView.dequeueReusableCell(withIdentifier: RecomendTableViewCell.id, for: indexPath) as! RecomendTableViewCell
             cell2.congigure(model: modelRecomend[indexPath.row])
             cell2.createScroll()
@@ -137,22 +136,3 @@ extension ViewController: UITableViewDelegate {
     
 }
 
-struct InstaPost {
-    let likeNumber: Int
-    let userName: String
-    let userImageName: String
-    let postImageName: String
-    let description: String
-}
-
-struct InstaStory {
-    var userImageView: String
-    var secondStoryImage: String
-    var thirdStoryImage: String
-    var fourStoryImage: String
-}
-
-struct InstaRecomend {
-    var userImageView: String
-    var userName: String
-}

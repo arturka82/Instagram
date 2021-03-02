@@ -26,9 +26,9 @@ class FollowTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    func congigure(model: InstaRecomend) {
+    func congigure(model: InstaFollow) {
         userImageView.image = UIImage(named: model.userImageView)
-        textActionLabel.text = model.userName
+        textActionLabel.text = model.text
     }
     
    

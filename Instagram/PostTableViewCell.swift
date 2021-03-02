@@ -14,8 +14,7 @@ class PostTableViewCell: UITableViewCell {
     @IBOutlet var likesImageView: UIImageView!
     @IBOutlet var likeContLabel: UILabel!
     @IBOutlet var userNameLabel: UILabel!
-
-    
+    @IBOutlet var descriptionLabel: UILabel!
 
     
 
@@ -27,21 +26,18 @@ class PostTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
     
     func congigure(with model: InstaPost) {
-        likeContLabel.text = "\(model.likeNumber) likes"
+        likeContLabel.text = "Нравиться: \(model.likeNumber)"
         userNameLabel.text = model.userName
         userImageView.image = UIImage(named: model.userImageName)
         postImageView.image = UIImage(named: model.postImageName)
-
+        descriptionLabel.text =  model.description
     }
     
 }

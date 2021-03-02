@@ -24,9 +24,9 @@ class ViewController: UIViewController {
         table.register(PostTableViewCell.nib(), forCellReuseIdentifier: PostTableViewCell.id)
         table.register(StoriTableViewCell.nib(), forCellReuseIdentifier: StoriTableViewCell.id)
         table.register(RecomendTableViewCell.nib(), forCellReuseIdentifier: RecomendTableViewCell.id)
+        navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "message"), style: .plain, target: self, action: nil)
         createUsers()
         createRefresh()
-
         addNavBarImage()
     }
     
@@ -96,7 +96,6 @@ extension ViewController: UITableViewDataSource {
             cell1.createScroll()
             cell1.selectionStyle = .none
             cell1.createImage()
-            
             
             return cell1
         }  else if indexPath.row == 2 {

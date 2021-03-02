@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		912D46C425EE6BB5008E19E2 /* InteractionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912D46C325EE6BB5008E19E2 /* InteractionTableViewController.swift */; };
+		912D46CF25EE6C5F008E19E2 /* LikesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912D46CD25EE6C5F008E19E2 /* LikesTableViewCell.swift */; };
+		912D46D025EE6C5F008E19E2 /* LikesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 912D46CE25EE6C5F008E19E2 /* LikesTableViewCell.xib */; };
+		912D46D525EE6C86008E19E2 /* FollowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912D46D325EE6C86008E19E2 /* FollowTableViewCell.swift */; };
+		912D46D625EE6C86008E19E2 /* FollowTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 912D46D425EE6C86008E19E2 /* FollowTableViewCell.xib */; };
 		913A107925ED642F00A0E748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 913A107825ED642E00A0E748 /* Assets.xcassets */; };
 		913A108125ED692100A0E748 /* StoriTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913A107F25ED692100A0E748 /* StoriTableViewCell.swift */; };
 		913A108225ED692100A0E748 /* StoriTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 913A108025ED692100A0E748 /* StoriTableViewCell.xib */; };
@@ -22,6 +27,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		912D46C325EE6BB5008E19E2 /* InteractionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractionTableViewController.swift; sourceTree = "<group>"; };
+		912D46CD25EE6C5F008E19E2 /* LikesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LikesTableViewCell.swift; path = Instagram/ViewControllers/LikesTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		912D46CE25EE6C5F008E19E2 /* LikesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LikesTableViewCell.xib; path = "Instagram/Xib files/LikesTableViewCell.xib"; sourceTree = SOURCE_ROOT; };
+		912D46D325EE6C86008E19E2 /* FollowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FollowTableViewCell.swift; path = "Instagram/Xib files/FollowTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		912D46D425EE6C86008E19E2 /* FollowTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FollowTableViewCell.xib; path = "Instagram/Xib files/FollowTableViewCell.xib"; sourceTree = SOURCE_ROOT; };
 		913A107825ED642E00A0E748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		913A107F25ED692100A0E748 /* StoriTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriTableViewCell.swift; sourceTree = "<group>"; };
 		913A108025ED692100A0E748 /* StoriTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoriTableViewCell.xib; sourceTree = "<group>"; };
@@ -49,6 +59,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		912D46C125EE6ADB008E19E2 /* Xib files */ = {
+			isa = PBXGroup;
+			children = (
+				912D46D425EE6C86008E19E2 /* FollowTableViewCell.xib */,
+				912D46CE25EE6C5F008E19E2 /* LikesTableViewCell.xib */,
+				913A108025ED692100A0E748 /* StoriTableViewCell.xib */,
+				913A108525ED78E600A0E748 /* RecomendTableViewCell.xib */,
+				91C820E225ED20AA00007FB1 /* PostTableViewCell.xib */,
+			);
+			path = "Xib files";
+			sourceTree = "<group>";
+		};
+		912D46C625EE6BD2008E19E2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				91C820D025ED13B200007FB1 /* ViewController.swift */,
+				912D46C325EE6BB5008E19E2 /* InteractionTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		912D46CA25EE6C08008E19E2 /* Cells ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				912D46D325EE6C86008E19E2 /* FollowTableViewCell.swift */,
+				912D46CD25EE6C5F008E19E2 /* LikesTableViewCell.swift */,
+				91C820E125ED20AA00007FB1 /* PostTableViewCell.swift */,
+				913A108425ED78E600A0E748 /* RecomendTableViewCell.swift */,
+				913A107F25ED692100A0E748 /* StoriTableViewCell.swift */,
+			);
+			path = "Cells ViewControllers";
+			sourceTree = "<group>";
+		};
+		912D46CC25EE6C1A008E19E2 /* Storyboars */ = {
+			isa = PBXGroup;
+			children = (
+				91C820D725ED13B600007FB1 /* LaunchScreen.storyboard */,
+				91C820D225ED13B200007FB1 /* Main.storyboard */,
+			);
+			path = Storyboars;
+			sourceTree = "<group>";
+		};
 		91C820C025ED13B200007FB1 = {
 			isa = PBXGroup;
 			children = (
@@ -70,15 +122,10 @@
 			children = (
 				91C820CC25ED13B200007FB1 /* AppDelegate.swift */,
 				91C820CE25ED13B200007FB1 /* SceneDelegate.swift */,
-				91C820D025ED13B200007FB1 /* ViewController.swift */,
-				913A108425ED78E600A0E748 /* RecomendTableViewCell.swift */,
-				913A108525ED78E600A0E748 /* RecomendTableViewCell.xib */,
-				91C820D225ED13B200007FB1 /* Main.storyboard */,
-				913A107F25ED692100A0E748 /* StoriTableViewCell.swift */,
-				913A108025ED692100A0E748 /* StoriTableViewCell.xib */,
-				91C820E125ED20AA00007FB1 /* PostTableViewCell.swift */,
-				91C820E225ED20AA00007FB1 /* PostTableViewCell.xib */,
-				91C820D725ED13B600007FB1 /* LaunchScreen.storyboard */,
+				912D46C625EE6BD2008E19E2 /* ViewControllers */,
+				912D46CC25EE6C1A008E19E2 /* Storyboars */,
+				912D46CA25EE6C08008E19E2 /* Cells ViewControllers */,
+				912D46C125EE6ADB008E19E2 /* Xib files */,
 				913A107825ED642E00A0E748 /* Assets.xcassets */,
 				91C820DA25ED13B600007FB1 /* Info.plist */,
 			);
@@ -142,11 +189,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				912D46D025EE6C5F008E19E2 /* LikesTableViewCell.xib in Resources */,
 				913A108725ED78E600A0E748 /* RecomendTableViewCell.xib in Resources */,
 				91C820D925ED13B600007FB1 /* LaunchScreen.storyboard in Resources */,
 				91C820D425ED13B200007FB1 /* Main.storyboard in Resources */,
 				913A107925ED642F00A0E748 /* Assets.xcassets in Resources */,
 				91C820E425ED20AA00007FB1 /* PostTableViewCell.xib in Resources */,
+				912D46D625EE6C86008E19E2 /* FollowTableViewCell.xib in Resources */,
 				913A108225ED692100A0E748 /* StoriTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -162,7 +211,10 @@
 				91C820D125ED13B200007FB1 /* ViewController.swift in Sources */,
 				913A108125ED692100A0E748 /* StoriTableViewCell.swift in Sources */,
 				91C820CD25ED13B200007FB1 /* AppDelegate.swift in Sources */,
+				912D46D525EE6C86008E19E2 /* FollowTableViewCell.swift in Sources */,
 				91C820CF25ED13B200007FB1 /* SceneDelegate.swift in Sources */,
+				912D46C425EE6BB5008E19E2 /* InteractionTableViewController.swift in Sources */,
+				912D46CF25EE6C5F008E19E2 /* LikesTableViewCell.swift in Sources */,
 				91C820E325ED20AA00007FB1 /* PostTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

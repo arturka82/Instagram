@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="LikesTableViewCell" rowHeight="60" id="KGk-i7-Jjw" customClass="LikesTableViewCell" customModule="Instagram" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GSM-b1-JBg">
+                        <rect key="frame" x="10" y="10" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="ZYh-Yk-83E"/>
+                            <constraint firstAttribute="width" constant="40" id="iyP-3W-suL"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <integer key="value" value="20"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="axper.ybbc упомянул вас в коментарии" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dly-FW-ocD">
+                        <rect key="frame" x="55" y="10" width="200" height="40"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jVm-Jf-lc9">
+                        <rect key="frame" x="270" y="10" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="oTI-3L-f8M"/>
+                            <constraint firstAttribute="width" constant="40" id="zXN-zN-nGu"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="jVm-Jf-lc9" secondAttribute="bottom" constant="10" id="0Zx-Dr-Slc"/>
+                    <constraint firstItem="jVm-Jf-lc9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="ADR-FQ-3Yv"/>
+                    <constraint firstAttribute="trailing" secondItem="jVm-Jf-lc9" secondAttribute="trailing" constant="10" id="FdV-MD-0HG"/>
+                    <constraint firstItem="GSM-b1-JBg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="aUd-tz-W4K"/>
+                    <constraint firstAttribute="bottom" secondItem="GSM-b1-JBg" secondAttribute="bottom" constant="10" id="dYt-VN-UfI"/>
+                    <constraint firstItem="GSM-b1-JBg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="gTp-gr-73L"/>
+                    <constraint firstItem="Dly-FW-ocD" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="knz-lU-zfl"/>
+                    <constraint firstAttribute="bottom" secondItem="Dly-FW-ocD" secondAttribute="bottom" constant="10" id="sHY-3p-uGr"/>
+                    <constraint firstItem="Dly-FW-ocD" firstAttribute="leading" secondItem="GSM-b1-JBg" secondAttribute="trailing" constant="5" id="uhR-qI-JxC"/>
+                    <constraint firstItem="jVm-Jf-lc9" firstAttribute="leading" secondItem="Dly-FW-ocD" secondAttribute="trailing" constant="15" id="vHR-Zc-OaF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="-147.82608695652175" y="79.6875"/>
+        </tableViewCell>
+    </objects>
+</document>

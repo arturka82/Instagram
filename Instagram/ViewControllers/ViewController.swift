@@ -130,6 +130,8 @@ extension ViewController: UITableViewDataSource {
             return 120+140+view.frame.size.width
         }
     }
+    
+    
 }
 
 extension ViewController: UITableViewDelegate {

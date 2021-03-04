@@ -13,11 +13,22 @@
 		912D46D525EE6C86008E19E2 /* FollowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912D46D325EE6C86008E19E2 /* FollowTableViewCell.swift */; };
 		912D46D625EE6C86008E19E2 /* FollowTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 912D46D425EE6C86008E19E2 /* FollowTableViewCell.xib */; };
 		912D46DA25EE763B008E19E2 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912D46D925EE763B008E19E2 /* Model.swift */; };
+		912D46DD25EFC8A4008E19E2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912D46DC25EFC8A4008E19E2 /* ProfileViewController.swift */; };
+		912D46E125EFDADB008E19E2 /* BioTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912D46DF25EFDADB008E19E2 /* BioTableViewCell.swift */; };
+		912D46E225EFDADB008E19E2 /* BioTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 912D46E025EFDADB008E19E2 /* BioTableViewCell.xib */; };
+		912D46E725EFF7E7008E19E2 /* CollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912D46E525EFF7E7008E19E2 /* CollectionTableViewCell.swift */; };
 		913A107925ED642F00A0E748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 913A107825ED642E00A0E748 /* Assets.xcassets */; };
 		913A108125ED692100A0E748 /* StoriTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913A107F25ED692100A0E748 /* StoriTableViewCell.swift */; };
 		913A108225ED692100A0E748 /* StoriTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 913A108025ED692100A0E748 /* StoriTableViewCell.xib */; };
 		913A108625ED78E600A0E748 /* RecomendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913A108425ED78E600A0E748 /* RecomendTableViewCell.swift */; };
 		913A108725ED78E600A0E748 /* RecomendTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 913A108525ED78E600A0E748 /* RecomendTableViewCell.xib */; };
+		914C82C425F0066B0030CCB3 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914C82C325F0066B0030CCB3 /* MyCollectionViewCell.swift */; };
+		914C82CD25F032BB0030CCB3 /* CollectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 914C82CB25F032BB0030CCB3 /* CollectionTableViewCell.xib */; };
+		914C82D325F038680030CCB3 /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 914C82D125F038680030CCB3 /* MyCollectionViewCell.xib */; };
+		91BC1F6425F0FCB500B77482 /* PhotosPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BC1F6225F0FCB500B77482 /* PhotosPostTableViewCell.swift */; };
+		91BC1F6525F0FCB500B77482 /* PhotosPostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91BC1F6325F0FCB500B77482 /* PhotosPostTableViewCell.xib */; };
+		91BC1F6A25F0FD0E00B77482 /* PhotosPostCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BC1F6825F0FD0E00B77482 /* PhotosPostCollectionViewCell.swift */; };
+		91BC1F6B25F0FD0E00B77482 /* PhotosPostCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91BC1F6925F0FD0E00B77482 /* PhotosPostCollectionViewCell.xib */; };
 		91C820CD25ED13B200007FB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C820CC25ED13B200007FB1 /* AppDelegate.swift */; };
 		91C820CF25ED13B200007FB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C820CE25ED13B200007FB1 /* SceneDelegate.swift */; };
 		91C820D125ED13B200007FB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C820D025ED13B200007FB1 /* ViewController.swift */; };
@@ -34,11 +45,22 @@
 		912D46D325EE6C86008E19E2 /* FollowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FollowTableViewCell.swift; path = "Instagram/Xib files/FollowTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
 		912D46D425EE6C86008E19E2 /* FollowTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FollowTableViewCell.xib; path = "Instagram/Xib files/FollowTableViewCell.xib"; sourceTree = SOURCE_ROOT; };
 		912D46D925EE763B008E19E2 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Model.swift; path = "Cells ViewControllers/Model.swift"; sourceTree = "<group>"; };
+		912D46DC25EFC8A4008E19E2 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = Instagram/Storyboars/ProfileViewController.swift; sourceTree = SOURCE_ROOT; };
+		912D46DF25EFDADB008E19E2 /* BioTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BioTableViewCell.swift; path = Instagram/Storyboars/BioTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		912D46E025EFDADB008E19E2 /* BioTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = BioTableViewCell.xib; path = "Instagram/Xib files/BioTableViewCell.xib"; sourceTree = SOURCE_ROOT; };
+		912D46E525EFF7E7008E19E2 /* CollectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTableViewCell.swift; sourceTree = "<group>"; };
 		913A107825ED642E00A0E748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		913A107F25ED692100A0E748 /* StoriTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriTableViewCell.swift; sourceTree = "<group>"; };
 		913A108025ED692100A0E748 /* StoriTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoriTableViewCell.xib; sourceTree = "<group>"; };
 		913A108425ED78E600A0E748 /* RecomendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecomendTableViewCell.swift; sourceTree = "<group>"; };
 		913A108525ED78E600A0E748 /* RecomendTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecomendTableViewCell.xib; sourceTree = "<group>"; };
+		914C82C325F0066B0030CCB3 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		914C82CB25F032BB0030CCB3 /* CollectionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionTableViewCell.xib; sourceTree = "<group>"; };
+		914C82D125F038680030CCB3 /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
+		91BC1F6225F0FCB500B77482 /* PhotosPostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPostTableViewCell.swift; sourceTree = "<group>"; };
+		91BC1F6325F0FCB500B77482 /* PhotosPostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotosPostTableViewCell.xib; sourceTree = "<group>"; };
+		91BC1F6825F0FD0E00B77482 /* PhotosPostCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPostCollectionViewCell.swift; sourceTree = "<group>"; };
+		91BC1F6925F0FD0E00B77482 /* PhotosPostCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotosPostCollectionViewCell.xib; sourceTree = "<group>"; };
 		91C820C925ED13B200007FB1 /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91C820CC25ED13B200007FB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91C820CE25ED13B200007FB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +86,11 @@
 		912D46C125EE6ADB008E19E2 /* Xib files */ = {
 			isa = PBXGroup;
 			children = (
+				91BC1F6325F0FCB500B77482 /* PhotosPostTableViewCell.xib */,
+				91BC1F6925F0FD0E00B77482 /* PhotosPostCollectionViewCell.xib */,
+				914C82D125F038680030CCB3 /* MyCollectionViewCell.xib */,
+				914C82CB25F032BB0030CCB3 /* CollectionTableViewCell.xib */,
+				912D46E025EFDADB008E19E2 /* BioTableViewCell.xib */,
 				912D46D425EE6C86008E19E2 /* FollowTableViewCell.xib */,
 				912D46CE25EE6C5F008E19E2 /* LikesTableViewCell.xib */,
 				913A108025ED692100A0E748 /* StoriTableViewCell.xib */,
@@ -78,6 +105,7 @@
 			children = (
 				91C820D025ED13B200007FB1 /* ViewController.swift */,
 				912D46C325EE6BB5008E19E2 /* InteractionTableViewController.swift */,
+				912D46DC25EFC8A4008E19E2 /* ProfileViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -85,11 +113,16 @@
 		912D46CA25EE6C08008E19E2 /* Cells ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				912D46DF25EFDADB008E19E2 /* BioTableViewCell.swift */,
+				912D46E525EFF7E7008E19E2 /* CollectionTableViewCell.swift */,
+				914C82C325F0066B0030CCB3 /* MyCollectionViewCell.swift */,
 				912D46D325EE6C86008E19E2 /* FollowTableViewCell.swift */,
 				912D46CD25EE6C5F008E19E2 /* LikesTableViewCell.swift */,
 				91C820E125ED20AA00007FB1 /* PostTableViewCell.swift */,
 				913A108425ED78E600A0E748 /* RecomendTableViewCell.swift */,
 				913A107F25ED692100A0E748 /* StoriTableViewCell.swift */,
+				91BC1F6825F0FD0E00B77482 /* PhotosPostCollectionViewCell.swift */,
+				91BC1F6225F0FCB500B77482 /* PhotosPostTableViewCell.swift */,
 			);
 			path = "Cells ViewControllers";
 			sourceTree = "<group>";
@@ -145,6 +178,7 @@
 				91C820C525ED13B200007FB1 /* Sources */,
 				91C820C625ED13B200007FB1 /* Frameworks */,
 				91C820C725ED13B200007FB1 /* Resources */,
+				91BC1F6025F0E23F00B77482 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -194,16 +228,41 @@
 			files = (
 				912D46D025EE6C5F008E19E2 /* LikesTableViewCell.xib in Resources */,
 				913A108725ED78E600A0E748 /* RecomendTableViewCell.xib in Resources */,
+				914C82D325F038680030CCB3 /* MyCollectionViewCell.xib in Resources */,
+				91BC1F6B25F0FD0E00B77482 /* PhotosPostCollectionViewCell.xib in Resources */,
 				91C820D925ED13B600007FB1 /* LaunchScreen.storyboard in Resources */,
+				912D46E225EFDADB008E19E2 /* BioTableViewCell.xib in Resources */,
+				914C82CD25F032BB0030CCB3 /* CollectionTableViewCell.xib in Resources */,
 				91C820D425ED13B200007FB1 /* Main.storyboard in Resources */,
 				913A107925ED642F00A0E748 /* Assets.xcassets in Resources */,
 				91C820E425ED20AA00007FB1 /* PostTableViewCell.xib in Resources */,
 				912D46D625EE6C86008E19E2 /* FollowTableViewCell.xib in Resources */,
+				91BC1F6525F0FCB500B77482 /* PhotosPostTableViewCell.xib in Resources */,
 				913A108225ED692100A0E748 /* StoriTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		91BC1F6025F0E23F00B77482 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		91C820C525ED13B200007FB1 /* Sources */ = {
@@ -211,11 +270,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				913A108625ED78E600A0E748 /* RecomendTableViewCell.swift in Sources */,
+				912D46E725EFF7E7008E19E2 /* CollectionTableViewCell.swift in Sources */,
 				91C820D125ED13B200007FB1 /* ViewController.swift in Sources */,
+				91BC1F6A25F0FD0E00B77482 /* PhotosPostCollectionViewCell.swift in Sources */,
 				913A108125ED692100A0E748 /* StoriTableViewCell.swift in Sources */,
 				91C820CD25ED13B200007FB1 /* AppDelegate.swift in Sources */,
 				912D46D525EE6C86008E19E2 /* FollowTableViewCell.swift in Sources */,
 				912D46DA25EE763B008E19E2 /* Model.swift in Sources */,
+				914C82C425F0066B0030CCB3 /* MyCollectionViewCell.swift in Sources */,
+				91BC1F6425F0FCB500B77482 /* PhotosPostTableViewCell.swift in Sources */,
+				912D46E125EFDADB008E19E2 /* BioTableViewCell.swift in Sources */,
+				912D46DD25EFC8A4008E19E2 /* ProfileViewController.swift in Sources */,
 				91C820CF25ED13B200007FB1 /* SceneDelegate.swift in Sources */,
 				912D46C425EE6BB5008E19E2 /* InteractionTableViewController.swift in Sources */,
 				912D46CF25EE6C5F008E19E2 /* LikesTableViewCell.swift in Sources */,

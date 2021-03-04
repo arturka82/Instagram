@@ -41,6 +41,21 @@ struct InstaFollow {
 }
 
 
-struct Vremya {
-    let vremya: String
+struct Posti {
+    let posti: String
+}
+
+struct BioInsta {
+    let userImageView: String
+    let text: String
+}
+
+struct Menu {
+    var name: String
+    var imageName: String
+    
+    init(text: String, imageName: String) {
+        self.name = text
+        self.imageName = imageName
+    }
 }

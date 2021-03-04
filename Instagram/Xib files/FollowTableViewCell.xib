@@ -70,7 +70,7 @@
                 <outlet property="textActionLabel" destination="PQ6-13-MSC" id="ER0-da-fBx"/>
                 <outlet property="userImageView" destination="lrk-Ke-43U" id="VTW-8M-raj"/>
             </connections>
-            <point key="canvasLocation" x="213.04347826086959" y="94.084821428571431"/>
+            <point key="canvasLocation" x="213.04347826086959" y="93.75"/>
         </tableViewCell>
     </objects>
     <resources>

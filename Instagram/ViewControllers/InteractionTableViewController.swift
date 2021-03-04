@@ -39,19 +39,19 @@ class InteractionTableViewController: UITableViewController {
     }
     
     private func createUsers() {
+        modelFollow.append(InstaFollow(userImageView: "head5", text: "подписалься на ваши обновления"))
         modelFollow.append(InstaFollow(userImageView: "head1", text: "ebaniy rot etogo kazino"))
         modelFollow.append(InstaFollow(userImageView: "head1", text: "ebaniy rot etogo kazino"))
         modelFollow.append(InstaFollow(userImageView: "head1", text: "ebaniy rot etogo kazino"))
-        modelFollow.append(InstaFollow(userImageView: "head1", text: "ebaniy rot etogo kazino"))
-        modelFollow.append(InstaFollow(userImageView: "head1", text: "ebaniy rot etogo kazino"))
-        modelFollow.append(InstaFollow(userImageView: "head1", text: "ebaniy rot etogo kazino"))
+        modelFollow.append(InstaFollow(userImageView: "head4", text: "v_rot_biryshka подписалась на ваши обновления"))
+        modelFollow.append(InstaFollow(userImageView: "head5", text: "evgeny_zverik подписалься на ваши обновления"))
         
         
         modelLike.append(InstaLike(userImageView: "head4", text: "devochka_s_kare оставила коментарий: Артур, капец ты умный", curentImageView: "head1"))
         modelLike.append(InstaLike(userImageView: "head1", text: "axper.ybbc лайкнул ваш пост", curentImageView: "head1"))
         modelLike.append(InstaLike(userImageView: "head3", text: "dps82: поймали лоха", curentImageView: "like1"))
-        modelLike.append(InstaLike(userImageView: "head1", text: "ebaniy", curentImageView: "head1"))
-        modelLike.append(InstaLike(userImageView: "head1", text: "ebaniy", curentImageView: "head1"))
+        modelLike.append(InstaLike(userImageView: "head5", text: "evgeny_zverik нравиться ваше фото.", curentImageView: "head1"))
+        modelLike.append(InstaLike(userImageView: "head5", text: "evgeny_zverik оставил коментари: Артурчик,жесткая машина прям", curentImageView: "like2"))
         modelLike.append(InstaLike(userImageView: "head1", text: "ebaniy", curentImageView: "head1"))
         
         
@@ -110,16 +110,16 @@ extension InteractionTableViewController {
         let label = UILabel()
         switch section {
         case 0:
-            label.text = "  Сегодня"
+            label.text = "   Сегодня"
         case 1:
-            label.text = "  На этой неделе"
+            label.text = "   На этой неделе"
         case 2:
-            label.text = "  В этом месяце месяце"
+            label.text = "   В этом месяце месяце"
         default:
             label.text = ""
         }
         label.textColor = .black
-        label.font = UIFont(name: "Menlo", size: 17)
+        label.font = UIFont(name: "HelveticaNeue-Bold", size: 18)
         label.backgroundColor = .white
         return label
     }

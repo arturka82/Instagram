@@ -23,13 +23,11 @@ class StoriTableViewCell: UITableViewCell {
 
 
 
-    
     static let id = "StoriTableViewCell"
     
     static func nib() -> UINib {
         UINib(nibName: "StoriTableViewCell", bundle: nil)
     }
-    
     override func awakeFromNib() {
         super.awakeFromNib()
     }
@@ -38,7 +36,6 @@ class StoriTableViewCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
 
     }
-    
     func congigure(model: InstaStory) {
         userImageView.image = UIImage(named: model.userImageView)
         secondStoryImage.image = UIImage(named: model.secondStoryImage)
@@ -55,7 +52,7 @@ class StoriTableViewCell: UITableViewCell {
         firstStoryImage.layer.borderWidth = 2
         firstStoryImage.layer.borderColor = CGColor(red: 128, green: 0, blue: 128, alpha: 1)
         firstStoryImage.layer.masksToBounds = true
-        
+        //MARk: Second
         secondStoryImage.layer.borderWidth = 2
         secondStoryImage.layer.borderColor = CGColor(red: 128, green: 0, blue: 128, alpha: 1)
         secondStoryImage.layer.masksToBounds = true

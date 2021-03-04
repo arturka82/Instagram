@@ -28,6 +28,7 @@ class ViewController: UIViewController {
         createUsers()
         createRefresh()
         addNavBarImage()
+        
     }
     
     @objc private func refresh(_ sender: AnyObject) {
@@ -113,9 +114,7 @@ extension ViewController: UITableViewDataSource {
         }
     }
     
-    func numberOfSections(in tableView: UITableView) -> Int {
-        1
-    }
+
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("qunem")
